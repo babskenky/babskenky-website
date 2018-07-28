@@ -36,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/contact/contact.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -46,13 +46,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/about/about.css">
+      <file leaf-file-name="nav.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nav/nav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7620">
-              <caret line="508" column="29" lean-forward="false" selection-start-line="508" selection-start-column="29" selection-end-line="508" selection-end-column="29" />
+            <state relative-caret-position="285">
+              <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
               <folding>
-                <element signature="e#8938#8991#0" expanded="false" />
+                <marker date="1532765671944" expanded="true" signature="1037:1060" ph="&lt;li/&gt;" />
               </folding>
             </state>
           </provider>
@@ -62,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/src/routes/views.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+              <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -100,7 +100,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -205,12 +205,10 @@
         <option value="$PROJECT_DIR$/node_modules/react-tabs/style/react-tabs.css" />
         <option value="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/build/_sharedCss/bootstrap/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/src/nav/nav.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/csvjson.json" />
         <option value="$PROJECT_DIR$/src/store_reducer/products_reducer.js" />
         <option value="$PROJECT_DIR$/src/views.js" />
-        <option value="$PROJECT_DIR$/src/routes/views.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/store_reducer/actionConstant.js" />
         <option value="$PROJECT_DIR$/src/store_reducer/action.js" />
@@ -224,6 +222,8 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/state.js" />
         <option value="$PROJECT_DIR$/src/routes/contact/contact.css" />
+        <option value="$PROJECT_DIR$/src/nav/nav.js" />
+        <option value="$PROJECT_DIR$/src/routes/views.js" />
       </list>
     </option>
   </component>
@@ -283,6 +283,12 @@
               <item name="babskeny" type="b2602c69:ProjectViewProjectNode" />
               <item name="babskeny" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="babskeny" type="b2602c69:ProjectViewProjectNode" />
+              <item name="babskeny" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="nav" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="babskeny" type="b2602c69:ProjectViewProjectNode" />
@@ -393,12 +399,12 @@
       <workItem from="1532097937377" duration="1472000" />
       <workItem from="1532116489170" duration="5659000" />
       <workItem from="1532277547714" duration="3708000" />
-      <workItem from="1532765193880" duration="228000" />
+      <workItem from="1532765193880" duration="452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127369000" />
+    <option name="totallyTimeSpent" value="127593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -585,17 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nav/nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-265">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-            <marker date="1528657593864" expanded="true" signature="1037:1060" ph="&lt;li/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store_reducer/actionConstant.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -679,14 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/views.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/about/about.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7620">
@@ -704,14 +691,6 @@
           <folding>
             <element signature="e#6712#7338#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,6 +743,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nav/nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+          <folding>
+            <marker date="1532765671944" expanded="true" signature="1037:1060" ph="&lt;li/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/views.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

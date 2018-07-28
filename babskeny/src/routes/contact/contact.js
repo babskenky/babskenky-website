@@ -28,10 +28,10 @@ const Contact = () => {
                         <form>
                             <ul className={'form'}>
                                 <li>
-                                    <input placeholder={'fullname'}/>
+                                    <input type='text' placeholder={'fullname'}/>
                                 </li>
                                 <li>
-                                    <input placeholder={'Email Address'}/>
+                                    <input type='text' placeholder={'Email Address'}/>
                                 </li>
                                 <li>
                                     <textarea rows="6" cols="50" placeholder={'Message'}>
