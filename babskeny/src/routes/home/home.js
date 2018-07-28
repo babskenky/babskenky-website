@@ -229,19 +229,19 @@ class Home extends Component {
                              <div className="col-lg-4 order-lg-1 text-white showcase-img"
                                   >
                                  <a href="https://easy1up.com/?id=babskenky"><img
-                                     src="https://easy1up.com/images/banners/250by250.png" BORDER='0'></a>
+                                     src="https://easy1up.com/images/banners/250by250.png" BORDER='0'/></a>
 
 
                              </div>
                              <div className="col-lg-4 order-lg-2 text-white showcase-img"
                                  >
                                  <a href="https://easy1up.com/?id=babskenky"><img
-                                     src="https://easy1up.com/images/banners/250by250.png" BORDER='0'></a>
+                                     src="https://easy1up.com/images/banners/250by250.png" BORDER='0'/></a>
                              </div>
                              <div className="col-lg-4 order-lg-3 text-white showcase-img"
                                   >
                                  <a href="https://easy1up.com/?id=babskenky"><img
-                                     src="https://easy1up.com/images/banners/250by250.png" BORDER='0'></a>
+                                     src="https://easy1up.com/images/banners/250by250.png" BORDER='0'/></a>
                              </div>
                          </div>
                      </div>
