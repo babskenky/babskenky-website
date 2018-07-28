@@ -15,7 +15,7 @@ const Content = ({products}) =>(
 
                 <div key ={i} className=" col-md-4 col-sm-12">
                     <div className='card'>
-                        <div className="card-img-top"><iframe style={{width:'100%',display:'block'}} marginwidth="0" marginheight="0" scrolling="no" frameborder="0"  src={item.ImageLink}></iframe></div>
+                        <div className="card-img-top" style={{background:'rgb(30, 31, 49)'}}><iframe style={{width:'55%',display:'block',margin:'auto'}} marginwidth="0" marginheight="0" scrolling="no" frameborder="0"  src={item.ImageLink}></iframe></div>
                     <div className="card-body">
                         <h5 className="card-title">{item.ProductName}</h5>
                         <p className="card-text">{item.BriefContent}</p>
