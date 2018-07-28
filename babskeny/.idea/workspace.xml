@@ -11,14 +11,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="store.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="store.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/store/store.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="110" lean-forward="false" selection-start-line="17" selection-start-column="110" selection-end-line="17" selection-end-column="110" />
+              <caret line="17" column="118" lean-forward="false" selection-start-line="17" selection-start-column="118" selection-end-line="17" selection-end-column="118" />
               <folding>
-                <marker date="1532766130015" expanded="true" signature="1291:6102" ph="{...}" />
-                <marker date="1532766130015" expanded="true" signature="2859:2889" ph="/*...*/" />
+                <marker date="1532766224240" expanded="true" signature="1330:6141" ph="{...}" />
+                <marker date="1532766224240" expanded="true" signature="2898:2928" ph="/*...*/" />
               </folding>
             </state>
           </provider>
@@ -68,12 +68,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
+      <file leaf-file-name="home.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/routes/home/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="389">
+              <caret line="230" column="32" lean-forward="false" selection-start-line="230" selection-start-column="32" selection-end-line="231" selection-end-column="106" />
+              <folding>
+                <marker date="1532766652877" expanded="true" signature="1626:17226" ph="{...}" />
+                <marker date="1532766652877" expanded="true" signature="2125:17224" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -214,7 +217,6 @@
         <option value="$PROJECT_DIR$/src/routes/about/about.js" />
         <option value="$PROJECT_DIR$/src/routes/about/about.css" />
         <option value="$PROJECT_DIR$/src/routes/store/store.css" />
-        <option value="$PROJECT_DIR$/src/routes/home/home.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/state.js" />
         <option value="$PROJECT_DIR$/src/nav/nav.js" />
@@ -222,6 +224,7 @@
         <option value="$PROJECT_DIR$/src/routes/contact/contact.css" />
         <option value="$PROJECT_DIR$/src/routes/contact/contact.js" />
         <option value="$PROJECT_DIR$/src/routes/store/store.js" />
+        <option value="$PROJECT_DIR$/src/routes/home/home.js" />
       </list>
     </option>
   </component>
@@ -307,6 +310,13 @@
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="contact" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="babskeny" type="b2602c69:ProjectViewProjectNode" />
+              <item name="babskeny" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="home" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="babskeny" type="b2602c69:ProjectViewProjectNode" />
@@ -404,12 +414,12 @@
       <workItem from="1532097937377" duration="1472000" />
       <workItem from="1532116489170" duration="5659000" />
       <workItem from="1532277547714" duration="3708000" />
-      <workItem from="1532765193880" duration="725000" />
+      <workItem from="1532765193880" duration="1189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127866000" />
+    <option name="totallyTimeSpent" value="128330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -682,16 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/home/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3075">
-          <caret line="217" column="107" lean-forward="false" selection-start-line="217" selection-start-column="107" selection-end-line="217" selection-end-column="107" />
-          <folding>
-            <element signature="e#6712#7338#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -771,10 +771,21 @@
     <entry file="file://$PROJECT_DIR$/src/routes/store/store.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="110" lean-forward="false" selection-start-line="17" selection-start-column="110" selection-end-line="17" selection-end-column="110" />
+          <caret line="17" column="118" lean-forward="false" selection-start-line="17" selection-start-column="118" selection-end-line="17" selection-end-column="118" />
           <folding>
-            <marker date="1532766130015" expanded="true" signature="1291:6102" ph="{...}" />
-            <marker date="1532766130015" expanded="true" signature="2859:2889" ph="/*...*/" />
+            <marker date="1532766224240" expanded="true" signature="1330:6141" ph="{...}" />
+            <marker date="1532766224240" expanded="true" signature="2898:2928" ph="/*...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/home/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="230" column="32" lean-forward="false" selection-start-line="230" selection-start-column="32" selection-end-line="231" selection-end-column="106" />
+          <folding>
+            <marker date="1532766652877" expanded="true" signature="1626:17226" ph="{...}" />
+            <marker date="1532766652877" expanded="true" signature="2125:17224" ph="{...}" />
           </folding>
         </state>
       </provider>

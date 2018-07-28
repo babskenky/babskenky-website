@@ -149,8 +149,8 @@ class Home extends Component {
                                          <i className="icon-screen-desktop m-auto text-grey"></i>
                                      </div>
                                      <h5>Blogging</h5>
-                                     <p className="lead mb-0">Featuring the latest build of the new Bootstrap 4
-                                         framework!</p>
+                                     {/*<p className="lead mb-0">Featuring the latest build of the new Bootstrap 4*/}
+                                         {/*framework!</p>*/}
                                  </div>
                              </div>
                              <div className="col-lg-3">
@@ -164,9 +164,9 @@ class Home extends Component {
                                  </div>
                              </div>
                              <div className="col-lg-3">
-                                 <div P="features-icons-item mx-auto mb-0 mb-lg-3">
+                                 <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                                      <div className="features-icons-icon d-flex">
-                                         <i className="icon-check m-auto text-grey"></i>
+                                         <i className="icon-calendar m-auto text-grey"></i>
                                      </div>
                                      <h5>Make Money</h5>
                                      <p className="lead mb-0">Featuring the latest build of the new Bootstrap 4
@@ -228,20 +228,20 @@ class Home extends Component {
                          <div className="row no-gutters">
                              <div className="col-lg-4 order-lg-1 text-white showcase-img"
                                   >
-                                 <a href="http://track.mobetrack.com/aff_c?offer_id=1724&aff_id=3071558">
-                                     <img src="https://mobeoffice.com/members/wp-content/uploads/2017/02/WiFi-Millionaire-350x350-a.jpg" alt={'baba'} /></a>
+                                 <a href="https://easy1up.com/?id=babskenky"><img
+                                     src="https://easy1up.com/images/banners/250by250.png" BORDER='0'></a>
+
 
                              </div>
                              <div className="col-lg-4 order-lg-2 text-white showcase-img"
                                  >
-                                 <a href="http://track.mobetrack.com/aff_c?offer_id=1724&aff_id=3071558">
-                                     <img src="https://mobeoffice.com/members/wp-content/uploads/2017/02/WiFi-Millionaire-350x350-a.jpg" alt={'baba'} /></a>
+                                 <a href="https://easy1up.com/?id=babskenky"><img
+                                     src="https://easy1up.com/images/banners/250by250.png" BORDER='0'></a>
                              </div>
                              <div className="col-lg-4 order-lg-3 text-white showcase-img"
                                   >
-                                 <a href="http://track.mobetrack.com/aff_c?offer_id=1724&aff_id=3071558">
-                                     <img src="https://mobeoffice.com/members/wp-content/uploads/2017/02/WiFi-Millionaire-350x350-a.jpg" alt={'baba'} />
-                                 </a>
+                                 <a href="https://easy1up.com/?id=babskenky"><img
+                                     src="https://easy1up.com/images/banners/250by250.png" BORDER='0'></a>
                              </div>
                          </div>
                      </div>
