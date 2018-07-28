@@ -4,3 +4,6 @@ section.contact {
 .no-pd{
     padding:0
 }
+.form input, .form textarea {
+    background:white !important
+}

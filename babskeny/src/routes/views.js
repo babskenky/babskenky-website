@@ -14,10 +14,10 @@ const Views = () => {
             <Switch>
                 <Route exact={true} path="/" render={(props)=><Home {...props}/>}/>
                 {/*<IndexRoute component={Portfolio}/>*/}
-                <Route path="/about" component={About}/>
-                <Route path="/contact" component={Contact}/>
-                <Route path="/blog" component={Blog}/>
-                <Route path="/store" component={Store}/>
+                <Route exact path="/about-baba" component={About}/>
+                <Route exact path="/contact-baba" component={Contact}/>
+                <Route exact path="/blog" component={Blog}/>
+                <Route exact path="/store" component={Store}/>
             </Switch>
         </div>
 
