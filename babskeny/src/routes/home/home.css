@@ -16,6 +16,7 @@
 .showcase .showcase-img {
     min-height: 45rem;
     background-size: cover;
+    background-position-x:40%;
 }
 
 @media (min-width: 768px) {
@@ -214,4 +215,7 @@ ul.form li{
 h2{
     line-height: 1 !important;
     font-size: 3.9rem !important
+}
+a{
+    color:rgb(86,86,86)
 }

@@ -112,7 +112,8 @@ class Home extends Component {
                      background: "url('../img/26561643908_d4f84400ce_k (1) (1).jpg')",
                      backgroundAttachment: 'fixed',
                      height: '1000px',
-                     filter:blurred
+                     filter:blurred,
+                     backgroundPositionX:'40%'
                  }}>
                      <div className={'home-overlay'}></div>
 
@@ -130,9 +131,9 @@ class Home extends Component {
                                          More</h1>
                                      <h4 className="masthead-subheading mb-0 text-center">Other people should not determine your worth. Stop being a paid slave !
 </h4>
-                                     <div className={'text-center'}>
-                                         <Link to={'/about'} className="btn abt-btn">Read More<span><i className="fa fa-long-arrow-right"></i></span></Link>
-                                     </div>
+                                     {/*<div className={'text-center'}>*/}
+                                         {/*<Link to={'/about'} className="btn abt-btn">Read More<span><i className="fa fa-long-arrow-right"></i></span></Link>*/}
+                                     {/*</div>*/}
                                  </div>
                              </div>
                          </div>
@@ -146,9 +147,9 @@ class Home extends Component {
                              <div className="col-lg-3">
                                  <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                                      <div className="features-icons-icon d-flex">
-                                         <i className="icon-screen-desktop m-auto text-grey"></i>
+                                         <i className="fas fa-rss fa-3x m-auto text-grey"></i>
                                      </div>
-                                     <h5>Blogging</h5>
+                                     <h5><b>BLOGGING</b></h5>
                                      {/*<p className="lead mb-0">Featuring the latest build of the new Bootstrap 4*/}
                                          {/*framework!</p>*/}
                                  </div>
@@ -156,31 +157,31 @@ class Home extends Component {
                              <div className="col-lg-3">
                                  <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                                      <div className="features-icons-icon d-flex">
-                                         <i className="icon-calendar m-auto text-grey"></i>
+                                         <i className="far fa-calendar-alt fa-3x m-auto text-grey"></i>
                                      </div>
-                                     <h5>Live Events</h5>
-                                     <p className="lead mb-0">Featuring the latest build of the new Bootstrap 4
-                                         framework!</p>
+                                     <h5><b>LIVE EVENTS</b></h5>
+                                     {/*<p className="lead mb-0">Featuring the latest build of the new Bootstrap 4*/}
+                                         {/*framework!</p>*/}
                                  </div>
                              </div>
                              <div className="col-lg-3">
                                  <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                                      <div className="features-icons-icon d-flex">
-                                         <i className="icon-calendar m-auto text-grey"></i>
+                                         <i className="fas fa-dollar-sign fa-3x m-auto text-grey"></i>
                                      </div>
-                                     <h5>Make Money</h5>
-                                     <p className="lead mb-0">Featuring the latest build of the new Bootstrap 4
-                                         framework!</p>
+                                     <h5><a href={'https://easy1up.com/?id=babskenky'}><b>MAKE MONEY</b></a></h5>
+                                     {/*<p className="lead mb-0">Featuring the latest build of the new Bootstrap 4*/}
+                                         {/*framework!</p>*/}
                                  </div>
                              </div>
                              <div className="col-lg-3">
                                  <div className="features-icons-item mx-auto mb-0 mb-lg-3">
                                      <div className="features-icons-icon d-flex">
-                                         <i className="icon-book-open m-auto text-grey"></i>
+                                         <i className="fas fa-book-reader fa-3x m-auto text-grey"></i>
                                      </div>
-                                     <h5>Books</h5>
-                                     <p className="lead mb-0">Featuring the latest build of the new Bootstrap 4
-                                         framework!</p>
+                                     <h5><Link to={'/about-baba'}><b>BOOKS</b></Link></h5>
+                                     {/*<p className="lead mb-0">Featuring the latest build of the new Bootstrap 4*/}
+                                         {/*framework!</p>*/}
                                  </div>
                              </div>
                          </div>
@@ -215,7 +216,7 @@ class Home extends Component {
                          </div>
                          <div className="row no-gutters">
                              <div className="col-lg-6 order-lg-2 text-white showcase-img"
-                                  style={{backgroundImage: 'url("../img/lo.JPG")',backgroungPosition:'0 65%'}}></div>
+                                  style={{backgroundImage: 'url("../img/lo.JPG")',backgroundPositionY:'65%'}}></div>
                              <div className="col-lg-6 order-lg-1 my-auto showcase-text">
                                  <div className={'title'}>
                                      <h5>Would like to work at your comfort?</h5>
@@ -226,23 +227,27 @@ class Home extends Component {
                              </div>
                          </div>
                          <div className="row no-gutters">
-                             <div className="col-lg-4 order-lg-1 text-white showcase-img"
-                                  >
+                             <div className="col-lg-12">
                                  <a href="https://easy1up.com/?id=babskenky"><img
-                                     src="https://easy1up.com/images/banners/250by250.png" BORDER='0'/></a>
+                                     src="https://easy1up.com/images/banners/468by60.png" border='0' /></a>
+                             </div>
+                                 {/*<div className="col-lg-4 order-lg-1 text-white showcase-img"*/}
+                                  {/*>*/}
+                                 {/*<a href="https://easy1up.com/?id=babskenky"><img*/}
+                                     {/*src="https://easy1up.com/images/banners/250by250.png" BORDER='0'/></a>*/}
 
 
-                             </div>
-                             <div className="col-lg-4 order-lg-2 text-white showcase-img"
-                                 >
-                                 <a href="https://easy1up.com/?id=babskenky"><img
-                                     src="https://easy1up.com/images/banners/250by250.png" BORDER='0'/></a>
-                             </div>
-                             <div className="col-lg-4 order-lg-3 text-white showcase-img"
-                                  >
-                                 <a href="https://easy1up.com/?id=babskenky"><img
-                                     src="https://easy1up.com/images/banners/250by250.png" BORDER='0'/></a>
-                             </div>
+                             {/*</div>*/}
+                             {/*<div className="col-lg-4 order-lg-2 text-white showcase-img"*/}
+                                 {/*>*/}
+                                 {/*<a href="https://easy1up.com/?id=babskenky"><img*/}
+                                     {/*src="https://easy1up.cofirefm/images/banners/250by250.png" BORDER='0'/></a>*/}
+                             {/*</div>*/}
+                             {/*<div className="col-lg-4 order-lg-3 text-white showcase-img"*/}
+                                  {/*>*/}
+                                 {/*<a href="https://easy1up.com/?id=babskenky"><img*/}
+                                     {/*src="https://easy1up.com/images/banners/250by250.png" BORDER='0'/></a>*/}
+                             {/*</div>*/}
                          </div>
                      </div>
                  </section>

@@ -7,3 +7,16 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
+
+describe('to match snapShot',()=>{
+  it('should match snapShot',()=>{
+    const elem = shallow(
+        <div>
+            <Nav/>
+            <Views/>
+            <Footer/>
+        </div>
+    );
+      expect(elem).toMatchSnapshot()
+  })
+})

@@ -87,3 +87,8 @@ hr{
 li:hover{
     color:#d1ac66 !important
 }
+@media screen and (max-width:412px){
+    .adjust{
+        margin-left:18vw;
+    }
+}

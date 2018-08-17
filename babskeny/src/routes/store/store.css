@@ -1286,7 +1286,8 @@ input:-ms-input-placeholder {
 .absolute {
     position:absolute;
     margin:auto auto;
-    left:11vh;
+    /*left:11vh;*/
+    left:7vw;
     box-shadow:0 2px 6px rgba(209, 172, 102,.6)
 }
 .spc{

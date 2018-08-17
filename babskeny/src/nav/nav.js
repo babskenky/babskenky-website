@@ -17,19 +17,19 @@ const Nav = () => {
                 <div className="collapse navbar-collapse text-uppercase" id="navbarResponsive">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <Link className="nav-link" to={'/'}>Home</Link>
+                            <Link className="nav-link" activestyle={{color:'#d1ac66'}} to={'/'}>Home</Link>
                         </li>
                         <li className="nav-item disabled-link">
-                            <Link className="nav-link" to={'/about-baba'} >About Baba</Link>
+                            <Link className="nav-link" activestyle={{color:'#d1ac66'}}  to={'/about-baba'} >About Baba</Link>
                         </li>
                         <li className="nav-item ">
-                            <Link className="nav-link" to={'/store'} >Store</Link>
+                            <Link className="nav-link" activestyle={{color:'#d1ac66'}}  to={'/products'} >Products</Link>
                         </li>
                         <li className="nav-item disabled-link">
-                            <Link className="nav-link" to={'/blog'} >Blog</Link>
+                            <Link className="nav-link" activestyle={{color:'#d1ac66'}}  to={'/blog'} >Blog</Link>
                         </li>
                         <li className="nav-item ">
-                            <Link className="nav-link" to={'/contact-with-baba'}>Contact</Link>
+                            <Link className="nav-link" activestyle={{color:'#d1ac66'}} to={'/contact-with-baba'}>Contact</Link>
                         </li>
                     </ul>
                 </div>

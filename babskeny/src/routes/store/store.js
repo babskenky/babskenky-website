@@ -13,13 +13,13 @@ const Content = ({products}) =>(
             console.log(item.ImageLink)
             return (
 
-                <div key ={i} className=" col-md-4 col-sm-12">
+                <div key ={i} className=" col-lg-4 col-md-5 col-sm-12">
                     <div className='card'>
-                        <div className="card-img-top" style={{background:'rgb(30, 31, 49)'}}><iframe style={{width:'55%',display:'block',margin:'auto'}} marginwidth="0" marginheight="0" scrolling="no" frameborder="0"  src={item.ImageLink}></iframe></div>
+                        <div className="card-img-top" style={{background:'rgba(209, 172, 101, 0.28)'}}><iframe style={{width:'55%',display:'block',margin:'auto'}} marginwidth="0" marginheight="0" scrolling="no" frameborder="0"  src={item.ImageLink}></iframe></div>
                     <div className="card-body">
                         <h5 className="card-title">{item.ProductName}</h5>
                         <p className="card-text">{item.BriefContent}</p>
-                        <a href={item.FileLink} className="btn btn-primary absolute">BUY NOW</a>
+                        <a href={item.FileLink} className="btn btn-primary absolute" target='_blank'>BUY NOW</a>
                     </div>
                 </div>
                 </div>

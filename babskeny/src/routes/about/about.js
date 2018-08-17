@@ -1,6 +1,10 @@
 import React from 'react';
 import './about.css'
 
+let styles = {
+    paralax:{background:"url('../img/lo.JPG')",backgroundSize: 'cover',backgroundRepeat: 'no-repeat',backgroundPosition: 'center',backgroundAttachment: 'fixed',height:'400px',color:'white'},
+    paralaxText:{maxWidth:'900px',margin:'auto',textAlign:'center',color:'white',marginTop:'15px'}
+}
 
 const About = () => {
 
@@ -39,30 +43,26 @@ const About = () => {
                 </div>
 
                 <div className="about-bg">
-                    <div className="container-fluid no-pd">
+                    <div className="container-fluid no-pd" style={styles.paralax}>
 
                         {/* Example row of columns */}
                         <div className="row">
-                            <div className="col-md-7 col-sm-12">
+                            <div className="col-md-12 col-sm-12">
                                 <div className="about-content">
 
                                     <h3>Babskenky</h3>
-                                    <p>This company was formed after having phenomenal individual success in generating income from a variety of multi-level marketing networks. For example, during his first year, Baba bought his first car from his part time gig selling products.
+                                    <p style={styles.paralaxText}>This company was formed after having phenomenal individual success in generating income from a variety of multi-level marketing networks. For example, during his first year, Baba bought his first car from his part time gig selling products.
 Baba is highly regarded in the online marketing community for his unique insights into mind-set and social media digital marketing.
-                                        This allows him to provide a perspective that provides outstanding clarity to his audiences with clear, actionable takeaways.
+                                    </p>
+                                       <p  style={styles.paralaxText}> This allows him to provide a perspective that provides outstanding clarity to his audiences with clear, actionable takeaways.
 Baba is a highly sought-after, international speaker - he has visited over 35 countries.
-Baba will teach you cutting-edge techniques in mastering social media to optimize how you, or your business, can make the absolute most out of the social media phenomenon.
+                                       </p>
+<p  style={styles.paralaxText}>Baba will teach you cutting-edge techniques in mastering social media to optimize how you, or your business, can make the absolute most out of the social media phenomenon.
 99 things I learned from my mentors teaches you that, regardless of your experience, you can be making money using social media. Discover how to use Facebook, Twitter, and Instagram to access billions of people every single day. Generate thousands of followers and learn the cutting edge techniques to mastering social media and create a job-replacing income.
 Instead of being a social media user, you are the target of marketing messages 24 hours a day, 7 days a week, you will become a social media content creator, you could be making money and changing your life instead, all through harnessing the power of social media.
 Imagine logging onto Facebook in the morning to find out how much money it made you last night. How much better would that make your social media experience?
-Stop wasting time. Start earning money. Now is the time to make the new economy work for you !
+    Stop wasting time. Start earning money. Now is the time to make the new economy work for you !
                                     </p>
-                                </div>
-                            </div>
-
-                            <div className="col-md-5 col-sm-12 col-xs-6">
-                                <div className="about-img">
-                                    <img src="../img/DSC02179.JPG" alt="" />
                                 </div>
                             </div>
 

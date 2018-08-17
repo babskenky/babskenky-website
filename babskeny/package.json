@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "bootstrap": "^4.0.0-alpha.6",
+    "enzyme": "^3.3.0",
     "font-awesome": "^4.7.0",
     "html-webpack-cdn-plugin": "^0.2.0",
     "popper.js": "^1.14.3",
