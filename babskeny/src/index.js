@@ -6,6 +6,7 @@ import App from './App';
 import {Provider} from 'react-redux';
 import {applyMiddleware,createStore,combineReducers} from 'redux';
 import logger from 'redux-logger';
+
 // Insert this import line in your code:
 import './_include/bootstrap';
 import registerServiceWorker from './registerServiceWorker';

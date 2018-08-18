@@ -6,7 +6,6 @@ import Nav from './nav/nav';
 import Views from './routes/views';
 import Footer from './footer/footer';
 
-
 class App extends Component {
   render() {
     return (
