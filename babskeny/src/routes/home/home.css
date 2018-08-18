@@ -219,3 +219,17 @@ h2{
 a{
     color:rgb(86,86,86)
 }
+.register-button{
+    background: #d1ac66;
+    padding: 15px 0px;
+    width: 60%;
+    margin: 45px auto;
+
+}
+.register-button:hover{
+    border:2px solid #d1ac66;
+    background:none;
+}
+.register-button{
+    color: white !important;
+}

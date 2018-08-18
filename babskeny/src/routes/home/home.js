@@ -8,29 +8,20 @@ const Form = ()=> {
        <div>
            <section className="testimonials bg-dark">
                <div className="container form">
-                   <h2 className="mb-5 text-gold text-center text-uppercase">unleash your full potentials</h2>
+                   <h2 className="mb-5 text-gold text-center text-uppercase">OFFICIAL 3 DAY / 2 NIGHT
+                       VACATION GETAWAY VOUCHER!
+                   </h2>
                    <div className="row">
                        <div className={'col-lg-6 text-white text-justify '}>
-                           <h3 style={{lineHeight:'1.5'}}>Subscribe and get the lastest takeaway and insights delivered to your inbox</h3>
+                           <h3 style={{lineHeight:'1.5'}}>Enjoy one of these destinations for 3 Days / 2 Nights</h3>
+                              <p> Use This Voucher to Receive Hotel Accommodations for Two At Your Choice of
+                               10 Fantastic Resort Destinations!
+                               Las Vegas, NV. Branson, MO. Pigeon Forge, TN. Orlando, FL. Reno, NV.
+                                  Gatlinburg, TN. Kissimmee, FL. Myrtle Beach, SC. Lake Tahoe, CA.</p>
                        </div>
                        <div className={'col-lg-6 text-center'}>
                            {/*<form onSubmit={this.handleSubmit}>*/}
-                           <form>
-                               <ul className={'form'}>
-                                   <li>
-                                       <input placeholder={'fullname'}/>
-                                   </li>
-                                   <li>
-                                       <input placeholder={'Email Address'}/>
-                                   </li>
-                                   <li>
-
-                                       <input className={'btn btn-gold'} type="submit" value="Submit" />
-                                   </li>
-                               </ul>
-
-                           </form>
-
+                           <a href='https://discountroomdeals.com'> <div className={'register-button'}> GET IT HERE</div></a>
                        </div>
 
                    </div>
@@ -146,34 +137,55 @@ class Home extends Component {
                          <div className="row">
                              <div className="col-lg-3">
                                  <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                                     <div className="features-icons-icon d-flex">
-                                         <i className="fas fa-rss fa-3x m-auto text-grey"></i>
-                                     </div>
-                                     <h5><b>BLOGGING</b></h5>
-                                     {/*<p className="lead mb-0">Featuring the latest build of the new Bootstrap 4*/}
-                                         {/*framework!</p>*/}
-                                 </div>
-                             </div>
-                             <div className="col-lg-3">
-                                 <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                                     <div className="features-icons-icon d-flex">
-                                         <i className="far fa-calendar-alt fa-3x m-auto text-grey"></i>
-                                     </div>
-                                     <h5><b>LIVE EVENTS</b></h5>
-                                     {/*<p className="lead mb-0">Featuring the latest build of the new Bootstrap 4*/}
-                                         {/*framework!</p>*/}
-                                 </div>
-                             </div>
-                             <div className="col-lg-3">
-                                 <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                                     <div className="features-icons-icon d-flex">
+                                     <a href={'https://easy1up.com/?id=babskenky'} target='_blank'>
+                                         <div className="features-icons-icon d-flex">
                                          <i className="fas fa-dollar-sign fa-3x m-auto text-grey"></i>
                                      </div>
-                                     <h5><a href={'https://easy1up.com/?id=babskenky'}><b>MAKE MONEY</b></a></h5>
-                                     {/*<p className="lead mb-0">Featuring the latest build of the new Bootstrap 4*/}
-                                         {/*framework!</p>*/}
+                                     <h5><b>MAKE MONEY</b></h5>
+                                     </a>
                                  </div>
                              </div>
+                             <div className="col-lg-3">
+                                 <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                                     <a href={'https://janeconti.com'} target='_blank'>
+                                         <div className="features-icons-icon d-flex">
+                                        <div style={{height:"90px"}}> <img src='/img/janeconti.png' style={{width:"100%",height:"100%"}}/></div>
+                                     </div>
+                                     <h5><b>Ecommerce</b></h5>
+                                     </a>
+                                 </div>
+                             </div>
+                             <div className="col-lg-3">
+                                 <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                                     <a href='https://isajitechnology.com' target='_blank'>
+                                         <div className="features-icons-icon d-flex">
+                                             <i className="fas fa-suitcase-rolling fa-3x m-auto text-grey"></i>
+                                         </div>
+                                         <h5><b> Local Business Leads Generation</b></h5>
+                                     </a>
+                                 </div>
+                             </div>
+                             <div className="col-lg-3">
+                                 <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                                     <a href='doc/Travel Voucher_Baba_v2.pdf' target='_blank'>
+                                         <div className="features-icons-icon d-flex">
+                                             <i className="fas fa-umbrella-beach fa-3x m-auto text-grey"></i>
+                                         </div>
+                                         <h5><b>FREE Vacation</b></h5>
+                                     </a>
+                                 </div>
+                             </div>
+                             <div className="col-lg-3 offset-lg-3">
+                                 <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                                    <a href='https://isajitechnology.com' target='_blank'>
+                                        <div className="features-icons-icon d-flex">
+                                         <i className="fas fa-cart-plus fa-3x m-auto text-grey"></i>
+                                     </div>
+                                     <h5><b>Technology Innovation</b></h5>
+                                    </a>
+                                 </div>
+                             </div>
+
                              <div className="col-lg-3">
                                  <div className="features-icons-item mx-auto mb-0 mb-lg-3">
                                      <div className="features-icons-icon d-flex">
@@ -227,7 +239,11 @@ class Home extends Component {
                              </div>
                          </div>
                          <div className="row no-gutters">
-                             <div className="col-lg-12">
+                             <div className="col-lg-8">
+                                 <a href="https://easy1up.com/?id=babskenky"><img
+                                     src="https://easy1up.com/images/banners/468by60.png" border='0' /></a>
+                             </div>
+                             <div className="col-lg-4">
                                  <a href="https://easy1up.com/?id=babskenky"><img
                                      src="https://easy1up.com/images/banners/468by60.png" border='0' /></a>
                              </div>

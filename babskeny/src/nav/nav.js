@@ -19,7 +19,7 @@ const Nav = () => {
                         <li className="nav-item">
                             <Link className="nav-link" activestyle={{color:'#d1ac66'}} to={'/'}>Home</Link>
                         </li>
-                        <li className="nav-item disabled-link">
+                        <li className="nav-item">
                             <Link className="nav-link" activestyle={{color:'#d1ac66'}}  to={'/about-baba'} >About Baba</Link>
                         </li>
                         <li className="nav-item ">

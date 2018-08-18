@@ -21,8 +21,9 @@ const About = () => {
                                         </Link>
                                         <ul className="list-unstyled quick-links">
                                             <li><span>BNY Holdings Incorporated<br/>
-            13801 Napoli Drive<br/>
-            Houston TX 77070
+            17802 Mound Road,#4103<br/>
+            Cypress TX 77433<br/>
+              USA
  </span></li>
 
                                         </ul>
@@ -34,16 +35,16 @@ const About = () => {
                                             <li><Link to="/about-baba">About Baba</Link></li>
                                             <li><a href="">FAQ</a></li>
                                             <li><a href="">Get Started</a></li>
-                                            <li><a href="">Videos</a></li>
+                                            <li><a href="https://https://gilbertsosa.wetransfer.com/downloads/e9922fb00d22279e7e349f339f99a21a20180706025711/00d61319de5cd02b7025a28d044fdae920180706025711/03d7dd" target="_blank">Videos</a></li>
                                         </ul>
                                     </div>
                                     <div className="col-xs-12 col-sm-2 col-md-2">
                                         <h6>Products</h6>
                                         <ul className="list-unstyled quick-links">
                                             <li><a href="/products">Books</a></li>
-                                            {/*<li><a href="">About</a></li>*/}
-                                            {/*<li><a href="">FAQ</a></li>*/}
-                                            {/*<li><a href="">Get Started</a></li>*/}
+                                            <li><a href="">Local Business Leads Generation</a></li>
+                                            <li><a href="doc/Travel Voucher_Baba_v2.pdf">FREE Vacation</a></li>
+                                            <li><a href='https://isajitechnology.com' target='_blank'>Technology Innovation</a></li>
                                         </ul>
                                     </div>
                                     <div className="col-xs-12 col-sm-2 col-md-3">
@@ -51,8 +52,8 @@ const About = () => {
                                         <ul className="list-unstyled quick-links">
                                             <li><a href=""><i className="fa fa-facebook"></i></a></li>
                                             <li><a href=""><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href=""><i className="fa fa-instagram"></i></a></li>
-                                            <li><a href="" target="_blank"><i className="fa fa-envelope"></i></a></li>
+                                            <li><a href="" ><i className="fa fa-phone"></i>18007527207</a> </li>
+                                            <li><a href="" target="_blank" ><i className="fa fa-envelope"></i>baba@bnyholdings.com</a> </li>
                                         </ul>
                                     </div>
                                 </div>

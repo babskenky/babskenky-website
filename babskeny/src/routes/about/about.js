@@ -2,10 +2,10 @@ import React from 'react';
 import './about.css'
 
 let styles = {
-    paralax:{background:"url('../img/lo.JPG')",backgroundSize: 'cover',backgroundRepeat: 'no-repeat',backgroundPosition: 'center',backgroundAttachment: 'fixed',color:'white'},
+    paralax:{background:"url('../img/IMG_8275.JPG')",backgroundSize: 'cover',backgroundRepeat: 'no-repeat',backgroundPosition: 'center 30%',backgroundAttachment: 'fixed',color:'white'},
     paralaxText:{maxWidth:'80%',margin:'auto',textAlign:'center',color:'white',marginTop:'15px'},
     paralax3:{background:"#9e7d39",color:'white'},
-    paralax2:{background:"url('../img/lo.JPG')",backgroundSize: 'cover',backgroundRepeat: 'no-repeat',backgroundPosition: 'center',backgroundAttachment: 'fixed',color:'white'},
+    paralax2:{background:"url('../img/IMG_0737.JPG')",backgroundSize: 'cover',backgroundRepeat: 'no-repeat',backgroundPosition: 'center 30%',backgroundAttachment: 'fixed',color:'white'},
 
 }
 
@@ -107,6 +107,10 @@ Imagine logging onto Facebook in the morning to find out how much money it made 
 <br/>
                     <p>But Here I am today, planning family vacations, attending business summits, networking with some of the greatest masterminds, and best of all, having all the time in the world to spend with my beautiful wife and loving daughter without having to answer to a boss who decides my earning potential or the fate of my career.</p>
                 </div>
+                <div style={{margin:"0 auto",width:"80%"}}>
+                    <img src='/img/IMG_4970.JPG' style={{width:'70%'}}/>
+                </div>
+
             </section>
 
             <section >
@@ -232,7 +236,7 @@ Imagine logging onto Facebook in the morning to find out how much money it made 
                 </div>
 
                 <div className="col-md-4 col-sm-12 col-xs-12">
-                    <div className={'register-button'}><a target="_blank" href="http://mobilesuccesstraining.com/letterh-a-1/?aff_id=3071558">REGISTER</a></div>
+                    <a target="_blank" href="http://mobilesuccesstraining.com/letterh-a-1/?aff_id=3071558"> <div className={'ab-register-button'}>REGISTER</div></a>
                 </div>
                 </div>
 

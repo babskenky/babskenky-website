@@ -523,7 +523,7 @@ input:-ms-input-placeholder {
 
 .about-content{
     padding:80px 0;
-    background: rgba(30, 30, 48, 0.84)
+    background:rgba(30, 30, 48, 0.6)
 }
 .about-content h3{
     font-size:40px;
@@ -1334,17 +1334,17 @@ input:-ms-input-placeholder {
     top: 15vw;
 
 }
-.register-button{
+.ab-register-button{
     background: #9e7d38;
     padding: 10px 0px;
     width: 60%;
     margin: auto;
 
 }
-.register-button:hover{
-    border:1px solid #9e7d38;
+.ab-register-button:hover{
+    border:2px solid #9e7d38;
     background:none;
 }
-.register-button a{
+.ab-register-button{
     color: white !important;
 }
