@@ -15,8 +15,6 @@ class App extends Component {
                       <meta charSet="utf-8"/>
                           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
                               <meta name="theme-color" content="#000000"/>
-
-                                  <!-- SEO -->
                                   <meta name="author" content="Michael Eze"/>
                                   <meta name="description" content="Baba Nureni-Yusuf - Author |Co-Founder |Internet Entrepreneur |Product Strategy Expert | Global Trainer | Public Speaker | Internet Marketer | Coach | Digital Economy Evangelist
 "/>
