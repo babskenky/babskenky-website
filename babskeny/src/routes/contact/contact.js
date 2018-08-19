@@ -13,8 +13,9 @@ const Contact = () => {
 
                         <div className="row">
                             <div className="col-md-12">
-                                <iframe  title={'address'} width="100%" height="430px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=15+Springfield+Way,+Hythe,+CT21+5SH&aq=t&sll=52.8382,-2.327815&sspn=8.047465,13.666992&ie=UTF8&hq=&hnear=15+Springfield+Way,+Hythe+CT21+5SH,+United+Kingdom&t=m&z=14&ll=51.077429,1.121722&output=embed"></iframe>
-                   
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.466472685911!2d-95.69861318488672!3d29.96602138191089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640d5c824a5a37b%3A0xa2b53e928181a334!2s17802+Mound+Rd+%234103%2C+Cypress%2C+TX+77433%2C+USA!5e0!3m2!1sen!2sng!4v1534665450975"
+                                    width="600" height="450" frameBorder="0" style="border:0" allowFullScreen></iframe>
                             </div>
                         </div>
 
