@@ -191,7 +191,7 @@ class Home extends Component {
                                      <div className="features-icons-icon d-flex">
                                          <i className="fas fa-book-reader fa-3x m-auto text-grey"></i>
                                      </div>
-                                     <h5><Link to={'/about-baba'}><b>BOOKS</b></Link></h5>
+                                     <h5><Link to={'/products'}><b>BOOKS</b></Link></h5>
                                      {/*<p className="lead mb-0">Featuring the latest build of the new Bootstrap 4*/}
                                          {/*framework!</p>*/}
                                  </div>
