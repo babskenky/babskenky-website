@@ -20,7 +20,7 @@ const Nav = () => {
                             <Link className="nav-link" activestyle={{color:'#d1ac66'}} to={'/'}>Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" activestyle={{color:'#d1ac66'}}  to={'/about-baba'} >About Baba</Link>
+                            <Link className="nav-link" activestyle={{color:'#d1ac66'}}  to={'/aboutbaba'} >About Baba</Link>
                         </li>
                         <li className="nav-item ">
                             <Link className="nav-link" activestyle={{color:'#d1ac66'}}  to={'/products'} >Products</Link>
@@ -29,7 +29,7 @@ const Nav = () => {
                             <Link className="nav-link" activestyle={{color:'#d1ac66'}}  to={'/blog'} >Blog</Link>
                         </li>
                         <li className="nav-item ">
-                            <Link className="nav-link" activestyle={{color:'#d1ac66'}} to={'/contact-with-baba'}>Contact</Link>
+                            <Link className="nav-link" activestyle={{color:'#d1ac66'}} to={'/contactbaba'}>Contact</Link>
                         </li>
                     </ul>
                 </div>

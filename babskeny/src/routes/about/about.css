@@ -236,11 +236,16 @@ section .subtitle-half h5 {
 }
 .overlay-img {
     max-height:380px;
-    background: #1e1e30f5;
+    background: url('/img/babs.png') no-repeat;
+    background-size: cover;
     width: 100%;
     overflow:hidden;
-    background-attachment:fixed;
 
+}
+@media screen and (max-width:767px){
+    .overlay-img{
+        background:#1e1e30;
+    }
 }
 .no-padding {
     padding: 0 !important;

@@ -14,8 +14,8 @@ const Views = () => {
             <Switch>
                 <Route exact={true} path="/" render={(props)=><Home {...props}/>}/>
                 {/*<IndexRoute component={Portfolio}/>*/}
-                <Route exact path="/about-baba" component={About}/>
-                <Route exact path="/contact-with-baba" component={Contact}/>
+                <Route exact path="/aboutbaba" component={About}/>
+                <Route exact path="/contactbaba" component={Contact}/>
                 <Route exact path="/blog" component={Blog}/>
                 <Route exact path="/products" component={Store}/>
             </Switch>
