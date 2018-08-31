@@ -33,17 +33,17 @@ const About = () => {
                                         <ul className="list-unstyled quick-links">
                                             <li><Link to="/">Home</Link></li>
                                             <li><Link to="/aboutbaba">About Baba</Link></li>
-                                            <li><a href="/contactbaba">FAQ</a></li>
+                                            <li><link to="/aboutbaba">FAQ</link></li>
                                             <li><a href="">Get Started</a></li>
-                                            <li><a href="https://https://gilbertsosa.wetransfer.com/downloads/e9922fb00d22279e7e349f339f99a21a20180706025711/00d61319de5cd02b7025a28d044fdae920180706025711/03d7dd" target="_blank">Videos</a></li>
+                                            <li><a href="https://gilbertsosa.wetransfer.com/downloads/e9922fb00d22279e7e349f339f99a21a20180706025711/00d61319de5cd02b7025a28d044fdae920180706025711/03d7dd" target="_blank">Videos</a></li>
                                         </ul>
                                     </div>
                                     <div className="col-xs-12 col-sm-2 col-md-2">
                                         <h6>Products</h6>
                                         <ul className="list-unstyled quick-links">
-                                            <li><a href="/products">Books</a></li>
+                                            <li><Link to="/products">Books</Link></li>
                                             <li><a href="">Local Business Leads Generation</a></li>
-                                            <li><a href="doc/Travel Voucher_Baba_v2.pdf">FREE Vacation</a></li>
+                                            <li><a href="doc/TravelVoucher_Baba_v2.pdf">FREE Vacation</a></li>
                                             <li><a href='https://isajitechnology.com' target='_blank'>Technology Innovation</a></li>
                                         </ul>
                                     </div>
@@ -78,6 +78,6 @@ const About = () => {
 </section>
         </div>
     )
-}
+};
 
 export default About

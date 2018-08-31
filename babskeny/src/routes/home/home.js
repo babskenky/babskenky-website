@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import {Link} from 'react-router-dom'
 import './home.css'
-import Slider from "react-slick";
+//import Slider from "react-slick";
 
 const Form = ()=> {
    return(
@@ -12,14 +12,14 @@ const Form = ()=> {
                        VACATION GETAWAY VOUCHER!
                    </h2>
                    <div className="row">
-                       <div className={'col-lg-6 text-white text-justify '}>
-                           <h3 style={{lineHeight:'1.5'}}>Enjoy one of these destinations for 3 Days / 2 Nights</h3>
-                              <p> Use This Voucher to Receive Hotel Accommodations for Two At Your Choice of
-                               10 Fantastic Resort Destinations!
-                               Las Vegas, NV. Branson, MO. Pigeon Forge, TN. Orlando, FL. Reno, NV.
-                                  Gatlinburg, TN. Kissimmee, FL. Myrtle Beach, SC. Lake Tahoe, CA.</p>
-                       </div>
-                       <div className={'col-lg-6 text-center'}>
+                       {/*<div className={'col-lg-6 text-white text-justify '}>*/}
+                           {/*<h3 style={{lineHeight:'1.5'}}>Enjoy one of these destinations for 3 Days / 2 Nights</h3>*/}
+                              {/*<p> Use This Voucher to Receive Hotel Accommodations for Two At Your Choice of*/}
+                               {/*10 Fantastic Resort Destinations!*/}
+                               {/*Las Vegas, NV. Branson, MO. Pigeon Forge, TN. Orlando, FL. Reno, NV.*/}
+                                  {/*Gatlinburg, TN. Kissimmee, FL. Myrtle Beach, SC. Lake Tahoe, CA.</p>*/}
+                       {/*</div>*/}
+                       <div className={'col-lg-12 text-center'}>
                            {/*<form onSubmit={this.handleSubmit}>*/}
                            <a href='https://discountroomdeals.com'> <div className={'register-button'}> GET IT HERE</div></a>
                        </div>
@@ -30,15 +30,15 @@ const Form = ()=> {
        </div>
    )
 
-}
+};
 
 
 class Home extends Component {
     constructor(props){
-        super(props)
+        super(props);
         this.state = {
             blurred:''
-        }
+        };
         this.blur = this.blur.bind(this)
     }
     componentDidMount(){
@@ -55,46 +55,46 @@ class Home extends Component {
             })
 
         }
-    }
+    };
 
      render() {
-         const {blurred} = this.state
-         let settings = {
-             dots: true,
-             autoplay: true,
-             infinite: true,
-             speed: 2000,
-             autoplaySpeed: 1000,
-             cssEase: "ease",
-             slidesToShow: 3,
-             slidesToScroll: 3,
-             responsive: [
-                 {
-                     breakpoint: 1024,
-                     settings: {
-                         slidesToShow: 2,
-                         slidesToScroll: 2,
-                         infinite: true,
-                         dots: true
-                     }
-                 },
-                 {
-                     breakpoint: 600,
-                     settings: {
-                         slidesToShow: 2,
-                         slidesToScroll: 2
-                     }
-                 },
-                 {
-                     breakpoint: 480,
-                     settings: {
-                         slidesToShow: 1,
-                         slidesToScroll: 1
-                     }
-                 }
-    
-             ]
-         };
+         const {blurred} = this.state;
+         // let settings = {
+         //     dots: true,
+         //     autoplay: true,
+         //     infinite: true,
+         //     speed: 2000,
+         //     autoplaySpeed: 1000,
+         //     cssEase: "ease",
+         //     slidesToShow: 3,
+         //     slidesToScroll: 3,
+         //     responsive: [
+         //         {
+         //             breakpoint: 1024,
+         //             settings: {
+         //                 slidesToShow: 2,
+         //                 slidesToScroll: 2,
+         //                 infinite: true,
+         //                 dots: true
+         //             }
+         //         },
+         //         {
+         //             breakpoint: 600,
+         //             settings: {
+         //                 slidesToShow: 2,
+         //                 slidesToScroll: 2
+         //             }
+         //         },
+         //         {
+         //             breakpoint: 480,
+         //             settings: {
+         //                 slidesToShow: 1,
+         //                 slidesToScroll: 1
+         //             }
+         //         }
+         //
+         //     ]
+         // };
 
          return (
 
@@ -149,7 +149,7 @@ class Home extends Component {
                                  <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                                      <a href={'https://janeconti.com'} target='_blank'>
                                          <div className="features-icons-icon d-flex">
-                                        <div style={{height:"90px"}}> <img src='/img/janeconti.png' style={{width:"100%",height:"100%"}}/></div>
+                                             <i className="fas fa-cart-plus fa-3x m-auto text-grey"></i>
                                      </div>
                                      <h5><b>Ecommerce</b></h5>
                                      </a>
@@ -167,7 +167,7 @@ class Home extends Component {
                              </div>
                              <div className="col-lg-3">
                                  <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                                     <a href='doc/Travel Voucher_Baba_v2.pdf' target='_blank'>
+                                     <a href='doc/Travel_Voucher_Baba_v2.pdf' target='_blank'>
                                          <div className="features-icons-icon d-flex">
                                              <i className="fas fa-umbrella-beach fa-3x m-auto text-grey"></i>
                                          </div>
@@ -293,44 +293,44 @@ class Home extends Component {
                  </section>
 
 
-                 <section className="testimonials text-center bg-light">
-                     <div className="container-fluid">
-                         <h2 className="mb-5 text-uppercase">What people are saying...</h2>
-                
-                         <div className={'row'}>
-                             <div className={'col-lg-12'}>
-                             <Slider {...settings}>
-                                 <div className={'pd-50'}>
-                                    <div style={{padding:'5rem'}}> <img className="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg"
-                                               alt=""/></div>
-                                     <h5>Stanley Rogers</h5>
-                                     <p className="font-weight-light mb-0">"Simply put... Baba is an exceptional team player with a brilliant mind and delivers value to the business every single day!"</p>
-                                 </div>
-                                 <div className={'pd-50'}>
-                                     <div style={{padding:'5rem'}}>  <img className="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg"
-                                                                          alt=""/></div>
-                                     <h5>Ricardo Pinto</h5>
-                                     <p className="font-weight-light mb-0">"Baba is a highly innovative Strategist. I had the pleasure of working with Baba to develop, build and scale a major project at a major American fortune 500.<br/></p>
-                                 </div>
-                                 <div className={'pd-50'}>
-                                     <div style={{padding:'5rem'}}> <img className="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg"
-                                                                         alt=""/></div>
-                                     <h5>Emil Martinez</h5>
-                                     <p className="font-weight-light mb-0">"I have had the pleasure of working with Baba over the past few years and have found him to be highly intelligent, flexible, open to alternative ideas/approaches and most of all passionate in his desire to ensure delivery excellence to all stakeholders"</p>
+                 {/*<section className="testimonials text-center bg-light">*/}
+                     {/*<div className="container-fluid">*/}
+                         {/*<h2 className="mb-5 text-uppercase">What people are saying...</h2>*/}
 
-                                 </div>
-                                 <div className={'pd-50'}>
-                                     <div style={{padding:'5rem'}}><img className="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg"
-                                                                         alt=""/></div>
-                                     <h5>Carl Noon </h5>
-                                     <p className="font-weight-light mb-0">"  Am here with Baba, a friend of mine. After coming to my workshop, listening and taking action. He became very successful within a short period of time. This is what happens when you apply the knowledge like Baba did..."</p>
+                         {/*<div className={'row'}>*/}
+                             {/*<div className={'col-lg-12'}>*/}
+                             {/*<Slider {...settings}>*/}
+                                 {/*<div className={'pd-50'}>*/}
+                                    {/*<div style={{padding:'5rem'}}> <img className="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg"*/}
+                                               {/*alt=""/></div>*/}
+                                     {/*<h5>Stanley Rogers</h5>*/}
+                                     {/*<p className="font-weight-light mb-0">"Simply put... Baba is an exceptional team player with a brilliant mind and delivers value to the business every single day!"</p>*/}
+                                 {/*</div>*/}
+                                 {/*<div className={'pd-50'}>*/}
+                                     {/*<div style={{padding:'5rem'}}>  <img className="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg"*/}
+                                                                          {/*alt=""/></div>*/}
+                                     {/*<h5>Ricardo Pinto</h5>*/}
+                                     {/*<p className="font-weight-light mb-0">"Baba is a highly innovative Strategist. I had the pleasure of working with Baba to develop, build and scale a major project at a major American fortune 500.<br/></p>*/}
+                                 {/*</div>*/}
+                                 {/*<div className={'pd-50'}>*/}
+                                     {/*<div style={{padding:'5rem'}}> <img className="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg"*/}
+                                                                         {/*alt=""/></div>*/}
+                                     {/*<h5>Emil Martinez</h5>*/}
+                                     {/*<p className="font-weight-light mb-0">"I have had the pleasure of working with Baba over the past few years and have found him to be highly intelligent, flexible, open to alternative ideas/approaches and most of all passionate in his desire to ensure delivery excellence to all stakeholders"</p>*/}
 
-                                 </div>
-                             </Slider>
-                             </div>
-                         </div>
-                     </div>
-                 </section>
+                                 {/*</div>*/}
+                                 {/*<div className={'pd-50'}>*/}
+                                     {/*<div style={{padding:'5rem'}}><img className="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg"*/}
+                                                                         {/*alt=""/></div>*/}
+                                     {/*<h5>Carl Noon </h5>*/}
+                                     {/*<p className="font-weight-light mb-0">"  Am here with Baba, a friend of mine. After coming to my workshop, listening and taking action. He became very successful within a short period of time. This is what happens when you apply the knowledge like Baba did..."</p>*/}
+
+                                 {/*</div>*/}
+                             {/*</Slider>*/}
+                             {/*</div>*/}
+                         {/*</div>*/}
+                     {/*</div>*/}
+                 {/*</section>*/}
                  <Form/>
              </div>
          )
