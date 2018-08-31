@@ -159,7 +159,7 @@ class Home extends Component {
                                  <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                                      <a href='https://isajitechnology.com' target='_blank'>
                                          <div className="features-icons-icon d-flex">
-                                             <i className="fas fa-shipping-fast git commit fa-3x m-auto text-grey"></i>
+                                             <i className="fas fa-suitcase-rolling fa-3x m-auto text-grey"></i>
                                          </div>
                                          <h5><b> Local Business Leads Generation</b></h5>
                                      </a>
@@ -179,7 +179,7 @@ class Home extends Component {
                                  <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                                     <a href='https://isajitechnology.com' target='_blank'>
                                         <div className="features-icons-icon d-flex">
-                                         <i className="fas fa-cart-plus fa-3x m-auto text-grey"></i>
+                                         <i className="fas fa-shipping-fast fa-3x m-auto text-grey"></i>
                                      </div>
                                      <h5><b>Technology Innovation</b></h5>
                                     </a>
