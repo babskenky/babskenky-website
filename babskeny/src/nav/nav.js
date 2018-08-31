@@ -31,9 +31,6 @@ const Nav = () => {
                         <li className="nav-item ">
                             <Link className="nav-link" activestyle={{color:'#d1ac66'}} to={'/contactbaba'}>Contact</Link>
                         </li>
-                        <li className="nav-item ">
-                            <a href="https://gilbertsosa.wetransfer.com/downloads/e9922fb00d22279e7e349f339f99a21a20180706025711/00d61319de5cd02b7025a28d044fdae920180706025711/03d7dd" target="_blank">Videos</a>
-                         </li>
                     </ul>
                 </div>
             </div>

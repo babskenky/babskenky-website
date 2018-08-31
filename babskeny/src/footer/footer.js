@@ -33,7 +33,7 @@ const About = () => {
                                         <ul className="list-unstyled quick-links">
                                             <li><Link to="/">Home</Link></li>
                                             <li><Link to="/aboutbaba">About Baba</Link></li>
-                                            <li><link to="/aboutbaba">FAQ</link></li>
+                                            <li><Link to="/aboutbaba">FAQ</Link></li>
                                             <li><a href="">Get Started</a></li>
                                             <li><a href="https://gilbertsosa.wetransfer.com/downloads/e9922fb00d22279e7e349f339f99a21a20180706025711/00d61319de5cd02b7025a28d044fdae920180706025711/03d7dd" target="_blank">Videos</a></li>
                                         </ul>
