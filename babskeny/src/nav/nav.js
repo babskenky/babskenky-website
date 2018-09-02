@@ -25,8 +25,8 @@ const Nav = () => {
                         <li className="nav-item ">
                             <Link className="nav-link" activestyle={{color:'#d1ac66'}}  to={'/products'} >Products</Link>
                         </li>
-                        <li className="nav-item disabled-link">
-                            <a className="nav-link"  href={'https://isajitechnology'} target={'_blank'}>Isajitechnology</a>
+                        <li className="nav-item">
+                            <a className="nav-link"  href='https://isajitechnology.com' target='_blank'>IsajiTechnology</a>
                         </li>
                         <li className="nav-item ">
                             <Link className="nav-link" activestyle={{color:'#d1ac66'}} to={'/contactbaba'}>Contact</Link>

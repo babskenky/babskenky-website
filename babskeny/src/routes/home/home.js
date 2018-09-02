@@ -279,10 +279,10 @@ class Home extends Component {
                                  <h2 className={'max-w-400'}>
                                      My Mission
                                  </h2>
-                                 <p className={'max-w-400 p-20 text-white'}>
+                                 <p className={'max-w-400 p-20 text-white'} style={{marginTop:'50px'}}>
                                      To help 1000 people escape the rat race, to live life on their own terms and fulfil their true destinies
-                                 </p>
-                                 <p className={'max-w-400 p-20 text-white'}>My passion is to transfer this knowledge and to continue to replicate this knowledge with individuals that are willing to earn their own freedom. After all, if I can do this, then you definitely can!</p>
+                                     <br/>
+                                My passion is to transfer this knowledge and to continue to replicate this knowledge with individuals that are willing to earn their own freedom. After all, if I can do this, then you definitely can!</p>
                                  </div>
                                  </div>
                              </div>

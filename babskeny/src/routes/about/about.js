@@ -3,7 +3,7 @@ import './about.css'
 
 let styles = {
     paralax:{background:"url('../img/IMG_8275.JPG')",backgroundSize: 'cover',backgroundRepeat: 'no-repeat',backgroundPosition: 'center 30%',backgroundAttachment: 'fixed',color:'white'},
-    paralaxText:{maxWidth:'80%',margin:'auto',textAlign:'center',color:'white',marginTop:'15px'},
+    paralaxText:{textAlign:'justify',color:'white',marginTop:'15px'},
     paralax3:{background:"#9e7d39",color:'white'},
     paralax2:{background:"url('../img/IMG_0737.JPG')",backgroundSize: 'cover',backgroundRepeat: 'no-repeat',backgroundPosition: 'center 30%',backgroundAttachment: 'fixed',color:'white'},
 
@@ -58,18 +58,32 @@ const About = () => {
 
                                     <h3>Babskenky</h3>
                                     <div className="separator" style={{background: "white"}}></div>
-                                    <p style={styles.paralaxText}>This company was formed after having phenomenal individual success in generating income from a variety of multi-level marketing networks. For example, during his first year, Baba bought his first car from his part time gig selling products.
-Baba is highly regarded in the online marketing community for his unique insights into mind-set and social media digital marketing.
-                                    </p>
-                                       <p  style={styles.paralaxText}> This allows him to provide a perspective that provides outstanding clarity to his audiences with clear, actionable takeaways.
-Baba is a highly sought-after, international speaker - he has visited over 35 countries.
-                                       </p>
-<p  style={styles.paralaxText}>Baba will teach you cutting-edge techniques in mastering social media to optimize how you, or your business, can make the absolute most out of the social media phenomenon.
-99 things I learned from my mentors teaches you that, regardless of your experience, you can be making money using social media. Discover how to use Facebook, Twitter, and Instagram to access billions of people every single day. Generate thousands of followers and learn the cutting edge techniques to mastering social media and create a job-replacing income.
-Instead of being a social media user, you are the target of marketing messages 24 hours a day, 7 days a week, you will become a social media content creator, you could be making money and changing your life instead, all through harnessing the power of social media.
-Imagine logging onto Facebook in the morning to find out how much money it made you last night. How much better would that make your social media experience?
-    Stop wasting time. Start earning money. Now is the time to make the new economy work for you !
-                                    </p>
+
+
+                                    <div className='container no-pd'>
+                                        <div className='row'>
+                                            <div className='col-lg-6 col-sm-12'>
+                                                <p style={styles.paralaxText}>This company was formed after having phenomenal individual success in generating income from a variety of multi-level marketing networks. For example, during his first year, Baba bought his first car from his part time gig selling products.
+                                                    Baba is highly regarded in the online marketing community for his unique insights into mind-set and social media digital marketing.
+                                                </p>
+                                                <p  style={styles.paralaxText}> This allows him to provide a perspective that provides outstanding clarity to his audiences with clear, actionable takeaways.
+                                                    Baba is a highly sought-after, international speaker - he has visited over 35 countries.
+                                                    Baba will teach you cutting-edge techniques in mastering social media to optimize how you, or your business, can make the absolute most out of the social media phenomenon.
+                                                </p>
+                                            </div>
+                                            <div className='col-lg-6 col-sm-12'>
+
+                                                <p  style={styles.paralaxText}>
+                                                    99 things I learned from my mentors teaches you that, regardless of your experience, you can be making money using social media. Discover how to use Facebook, Twitter, and Instagram to access billions of people every single day. Generate thousands of followers and learn the cutting edge techniques to mastering social media and create a job-replacing income.
+                                                    Instead of being a social media user, you are the target of marketing messages 24 hours a day, 7 days a week, you will become a social media content creator, you could be making money and changing your life instead, all through harnessing the power of social media.
+                                                    Imagine logging onto Facebook in the morning to find out how much money it made you last night. How much better would that make your social media experience?
+                                                    Stop wasting time. Start earning money. Now is the time to make the new economy work for you !
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
                                 </div>
                             </div>
 
@@ -107,9 +121,18 @@ Imagine logging onto Facebook in the morning to find out how much money it made 
 <br/>
                     <p>But Here I am today, planning family vacations, attending business summits, networking with some of the greatest masterminds, and best of all, having all the time in the world to spend with my beautiful wife and loving daughter without having to answer to a boss who decides my earning potential or the fate of my career.</p>
                 </div>
-                <div style={{margin:"0 auto",width:"80%"}}>
-                    <img src='/img/IMG_4970.JPG' style={{width:'70%'}}/>
+
+                <div className='container no-pd'>
+                    <div className='row'>
+                        <div className='col-lg-12'>
+                            <div style={{margin:"0 auto",width:"50%"}}>
+                                <img src='/img/IMG_4970.JPG' style={{width:'100%'}}/>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
+
 
             </section>
 
@@ -125,21 +148,33 @@ Imagine logging onto Facebook in the morning to find out how much money it made 
 
                                     <h3>Don’t get me wrong!</h3>
                                     <div className="separator" style={{background: "white"}}></div>
-                                    <p style={styles.paralaxText}>
-                                        I was once a dedicated employee with an outstanding record but I had always known deep within me that this was not the path that would offer me and my family the life that we deserved. I worked hard day and night and led initiatives that brought millions in revenues to the company’s top line growth. Not only was I a committed employee, I was focused too.
-                                    </p>
 
-                                        <p  style={styles.paralaxText}>
-                                            As an American immigrant, I was the perfect success story. After getting an engineering degree back home, I had obtained an additional master’s degree in finance and an MBA in the states to add to my list of competencies. I was well-trained, hard working and highly educated.
-                                        </p>
-                                    <p  style={styles.paralaxText}>
-                                        I had persuaded my wife to do the same and even though we had thousands of dollars in student loans, we were positive about our potential and our top notch jobs and careers were definitely the stuff dreams were made off.
 
-                                        But this didn’t last.
-                                    </p>
-                                    <p  style={styles.paralaxText}>
-                                        I started to spend more time with my wife and daughter, learning new things about true happiness, being able to attend important events like my daughter’s swimming lessons and having the opportunity to kiss my wife goodbye on her way to work. This was definitely shaping up to be some of the happiest moments of my life but there was something missing! I needed to engage myself more!
-                                    </p>
+                                    <div className='container no-pd'>
+                                        <div className='row'>
+                                            <div className='col-lg-6 col-sm-12'>
+                                                <p style={styles.paralaxText}>
+                                                    I was once a dedicated employee with an outstanding record but I had always known deep within me that this was not the path that would offer me and my family the life that we deserved. I worked hard day and night and led initiatives that brought millions in revenues to the company’s top line growth. Not only was I a committed employee, I was focused too.
+                                                </p>
+
+                                                <p  style={styles.paralaxText}>
+                                                    As an American immigrant, I was the perfect success story. After getting an engineering degree back home, I had obtained an additional master’s degree in finance and an MBA in the states to add to my list of competencies. I was well-trained, hard working and highly educated.
+                                                </p>
+                                            </div>
+                                            <div className='col-lg-6 col-sm-12'>
+
+                                                <p  style={styles.paralaxText}>
+                                                    I had persuaded my wife to do the same and even though we had thousands of dollars in student loans, we were positive about our potential and our top notch jobs and careers were definitely the stuff dreams were made off.
+
+                                                    But this didn’t last.
+                                                </p>
+                                                <p  style={styles.paralaxText}>
+                                                    I started to spend more time with my wife and daughter, learning new things about true happiness, being able to attend important events like my daughter’s swimming lessons and having the opportunity to kiss my wife goodbye on her way to work. This was definitely shaping up to be some of the happiest moments of my life but there was something missing! I needed to engage myself more!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
 
@@ -201,18 +236,31 @@ Imagine logging onto Facebook in the morning to find out how much money it made 
 
                                     <h3>get out of the rat-race</h3>
                                     <div className="separator" style={{background: "white"}}></div>
-                                    <p style={styles.paralaxText}>
-                                        I want to show you how you can get out of the rat-race and find joy doing something you truly want with your life while developing your own financial freedom. It is time to get out of those limiting beliefs and find joy doing something you are passionate about, spend more time with your family, travel the world, enjoy the true reward of hard work and decide exactly what money means to you.
 
-                                    </p>
-                                        <p  style={styles.paralaxText}>
-                                            I invite you to join me and learn the entire secret upon which I have built my success with no obligation.My passion is to transfer this knowledge and to continue to replicate this knowledge with individuals that are willing to earn their own freedom. After all, if I can do this, then you definitely can!
-                                        </p>
-                                            <p  style={styles.paralaxText}>Why struggle to make ends meet when you can empower yourself and know exactly how to take action.
+                                    <div className='container no-pd'>
+                                        <div className='row'>
+                                            <div className='col-lg-6 col-sm-12'>
+                                                <p style={styles.paralaxText}>
+                                                    I want to show you how you can get out of the rat-race and find joy doing something you truly want with your life while developing your own financial freedom. It is time to get out of those limiting beliefs and find joy doing something you are passionate about, spend more time with your family, travel the world, enjoy the true reward of hard work and decide exactly what money means to you.
 
-                                                Join me by filling this application and be the next one to rise above your worries and set your own life schedules.
+                                                </p>
 
-                                            </p>
+                                            </div>
+                                            <div className='col-lg-6 col-sm-12'>
+                                                <p  style={styles.paralaxText}>
+                                                    I invite you to join me and learn the entire secret upon which I have built my success with no obligation.My passion is to transfer this knowledge and to continue to replicate this knowledge with individuals that are willing to earn their own freedom. After all, if I can do this, then you definitely can!
+                                                </p>
+                                                <p  style={styles.paralaxText}>Why struggle to make ends meet when you can empower yourself and know exactly how to take action.
+
+                                                    Join me by filling this application and be the next one to rise above your worries and set your own life schedules.
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
                                 </div>
                             </div>
 
