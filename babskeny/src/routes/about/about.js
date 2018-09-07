@@ -3,7 +3,7 @@ import './about.css'
 
 let styles = {
     paralax:{background:"url('../img/IMG_8275.JPG')",backgroundSize: 'cover',backgroundRepeat: 'no-repeat',backgroundPosition: 'center 30%',backgroundAttachment: 'fixed',color:'white'},
-    paralaxText:{textAlign:'justify',color:'white',marginTop:'15px'},
+    paralaxText:{textAlign:'justify',color:'white',marginTop:'15px',padding:"0 2rem"},
     paralax3:{background:"#9e7d39",color:'white'},
     paralax2:{background:"url('../img/IMG_0737.JPG')",backgroundSize: 'cover',backgroundRepeat: 'no-repeat',backgroundPosition: 'center 30%',backgroundAttachment: 'fixed',color:'white'},
 
@@ -126,7 +126,8 @@ const About = () => {
                     <div className='row'>
                         <div className='col-lg-12'>
                             <div style={{margin:"0 auto",width:"50%"}}>
-                                <img src='/img/IMG_4970.JPG' style={{width:'100%'}}/>
+                                <iframe src="https://www.youtube.com/embed/E_ahRHZJC_c" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen style={{width:"100%",height:"300px"}}></iframe>
+                                {/*<img src='/img/IMG_4970.JPG' style={{width:'100%'}}/>*/}
                             </div>
                         </div>
 
@@ -278,13 +279,13 @@ const About = () => {
             <div className="row">
                 <div className="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
                     <div className="twitter-content">
-                        <h5>CLICK HERE NOW TO REGISTER FOR YOUR 21 STEPS TRAINING THAT CHANGED MY LIFE!</h5>
+                        <h5>START YOUR JOURNEY HERE!</h5>
 
                     </div>
                 </div>
 
                 <div className="col-md-4 col-sm-12 col-xs-12">
-                    <a target="_blank" href="http://mobilesuccesstraining.com/letterh-a-1/?aff_id=3071558"> <div className={'ab-register-button'}>REGISTER</div></a>
+                    <a target="_blank" href="https://easy1up.com/?id=babskenky"> <div className={'ab-register-button'}>CLICK HERE</div></a>
                 </div>
                 </div>
 

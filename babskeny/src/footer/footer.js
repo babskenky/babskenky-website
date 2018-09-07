@@ -21,9 +21,10 @@ const About = () => {
                                         </Link>
                                         <ul className="list-unstyled quick-links">
                                             <li><span>BNY Holdings Incorporated<br/>
-            17802 Mound Road,#4103<br/>
-            Cypress TX 77433<br/>
-              USA
+          8190 Barker Cypress Road<br/>
+                            Suite 1900-90<br/>
+                            Cypress TX 77433<br/>
+                            USA<br/>
  </span></li>
 
                                         </ul>
@@ -35,7 +36,7 @@ const About = () => {
                                             <li><Link to="/aboutbaba">About Baba</Link></li>
                                             <li><Link to="/aboutbaba">FAQ</Link></li>
                                             <li><a href="">Get Started</a></li>
-                                            <li><a href="https://gilbertsosa.wetransfer.com/downloads/e9922fb00d22279e7e349f339f99a21a20180706025711/00d61319de5cd02b7025a28d044fdae920180706025711/03d7dd" target="_blank">Videos</a></li>
+                                            <li><a href="https://www.youtube.com/embed/E_ahRHZJC_c" target="_blank">Videos</a></li>
                                         </ul>
                                     </div>
                                     <div className="col-xs-12 col-sm-2 col-md-2">

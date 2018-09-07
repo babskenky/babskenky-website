@@ -155,16 +155,7 @@ class Home extends Component {
                                      </a>
                                  </div>
                              </div>
-                             <div className="col-lg-3">
-                                 <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                                     <a href='https://isajitechnology.com' target='_blank'>
-                                         <div className="features-icons-icon d-flex">
-                                             <i className="fas fa-suitcase-rolling fa-3x m-auto text-grey"></i>
-                                         </div>
-                                         <h5><b> Local Business Leads Generation</b></h5>
-                                     </a>
-                                 </div>
-                             </div>
+
                              <div className="col-lg-3">
                                  <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                                      <a href='doc/Travel_Voucher_Baba_v2.pdf' target='_blank'>
@@ -175,7 +166,7 @@ class Home extends Component {
                                      </a>
                                  </div>
                              </div>
-                             <div className="col-lg-3 offset-lg-3">
+                             <div className="col-lg-3 ">
                                  <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                                     <a href='https://isajitechnology.com' target='_blank'>
                                         <div className="features-icons-icon d-flex">
@@ -186,14 +177,24 @@ class Home extends Component {
                                  </div>
                              </div>
 
-                             <div className="col-lg-3">
+                             <div className="col-lg-3 offset-lg-3">
                                  <div className="features-icons-item mx-auto mb-0 mb-lg-3">
+                                     <Link to='/products'>
                                      <div className="features-icons-icon d-flex">
                                          <i className="fas fa-book-reader fa-3x m-auto text-grey"></i>
                                      </div>
-                                     <h5><Link to={'/products'}><b>BOOKS</b></Link></h5>
+                                    <h5><b>BOOKS</b></h5>
+                                     </Link>
                                      {/*<p className="lead mb-0">Featuring the latest build of the new Bootstrap 4*/}
                                          {/*framework!</p>*/}
+                                 </div>
+                             </div>
+                             <div className="col-lg-3">
+                                 <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                                         <div className="features-icons-icon d-flex">
+                                             <i className="fas fa-suitcase-rolling fa-3x m-auto text-grey"></i>
+                                         </div>
+                                         <h5><b> Local Business Leads Generation</b></h5>
                                  </div>
                              </div>
                          </div>

@@ -15,7 +15,7 @@ const Content = ({products}) =>(
 
                 <div key ={i} className=" col-lg-4 col-md-5 col-sm-12">
                     <div className='card'>
-                        <div className="card-img-top" style={{background:'#9e7d38'}}><iframe style={{width:'40%',display:'block',margin:'auto'}} marginwidth="0" marginheight="0" scrolling="no" frameborder="0"  src={item.ImageLink}></iframe></div>
+                        <div className="card-img-top" style={{background:'#9e7d38'}}><iframe style={{width:'40%',display:'block',margin:'auto'}} scrolling="no" frameBorder="0"  src={item.ImageLink}></iframe></div>
                     <div className="card-body">
                         <h5 className="card-title">{item.ProductName}</h5>
                         <p className="card-text">{item.BriefContent}</p>
@@ -64,7 +64,6 @@ class Store extends React.Component{
                                         <Tab>My Products</Tab>
                                         <Tab disabled>Recommended Books</Tab>
                                     </TabList>
-                                    <p className={'plr-20'}>If you need assistance, please click here to send us an email.</p>
                                     <TabPanel className={'spc'} style={{margin:0}}>
                                         <div className="container">
                                             <div className='row'>

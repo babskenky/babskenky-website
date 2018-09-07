@@ -14,8 +14,10 @@ const Contact = () => {
                         <div className="row">
                             <div className="col-md-12">
                                 <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.466472685911!2d-95.69861318488672!3d29.96602138191089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640d5c824a5a37b%3A0xa2b53e928181a334!2s17802+Mound+Rd+%234103%2C+Cypress%2C+TX+77433%2C+USA!5e0!3m2!1sen!2sng!4v1534665450975"
-                                    width="600" height="450" frameBorder="0" style="border:0" allowFullScreen></iframe>
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3458.896477983414!2d-95.6852118842372!3d29.896083381936617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640d701842cb4f5%3A0x119ec94497ed64e7!2s8190+Barker+Cypress+Rd%2C+Cypress%2C+TX+77433%2C+USA!5e0!3m2!1sen!2sng!4v1536332853647"
+                                  height="450" frameBorder="0" style={{border:0,width:"100%"}} allowFullScreen>
+
+                                </iframe>
                             </div>
                         </div>
 
@@ -50,9 +52,11 @@ const Contact = () => {
                     <div className="col-md-6 text-white">
                         <h2 style={{color:'#d1ac66'}}> <strong>BNY Holdings Incorporated</strong></h2>
                         <address className={'t-20'}>
-                            13801 Napoli Drive<br/>
-                            Houston TX 77070
-                            <br/> 01234 567 890
+                            8190 Barker Cypress Road<br/>
+                            Suite 1900-90<br/>
+                            Cypress TX 77433<br/>
+                            USA<br/>
+                         08007527207
                         </address>
                     </div>
                 </div>
